@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="es" method="get">
+<div class="h1s">
+<h2 >Formulario de Registro</h2>
+<table>
+<div class="header">CREAR UNA CUENTA</div>
+<div class="di"></div>
+  <tr>
+    <td>
+    <input type="text" name="nombre" placeholder="Nombre*" required="required">
+    </td>
+    <td>
+    <input type="text" name="apellido" placeholder="Apellido*" required="required">
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    <input type="email" name="correo" placeholder="Correo*" required="required">
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <input type="text" name="usuario" placeholder="Usuario*" required="required">
+    </td>
+    <td>
+    <input type="password" name="contrasena" placeholder="Contraseña*" required="required">
+    </td>
+  </tr>
+    <tr>
+    <td colspan="2">
+    <input type="number" name="telefono" placeholder="Teléfono*" required="required">
+    </td>
+    <tr>
+    <td colspan="2">
+    <button type="submit" name="enviar">REGISTRAR</button>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<style>
+form{
+ display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.di{
+background-color: red;
+height: 3px;
+}
+button{
+background-color: red;
+color: white;
+border-radius: 10px;
+height: 50px;
+border-color: white;
+cursor: pointer;
+font-style: inherit;
+}
+.header{
+color: white;
+width: 100%;
+height: 40px;
+border-radius: 10px;
+background-color: gray;
+padding-top: 20px;
+}
+table{
+width: 100%;
+border-radius: 10px;
+background-color: white;
+padding-right: 8px;
+padding-left: 2px;
+padding-top: 5px;
+}
+.h1s{
+color: blue;
+border: 2px solid orange;
+background-color: orange;
+border-radius: 10px;
+text-align: center;
+width: 450px;
+height: auto;
+}
+input{
+    border: none;
+    border-bottom: 2px solid rgb(3, 69, 168);
+    align-self: start;
+    height: 40px;
+    width: 100%;
+    border-inline: 1px solid  #0c3255;
+    border-radius: 10px;
+  }
+</style>
+</form>
+</body>
+</html>
